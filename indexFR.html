@@ -1,30 +1,53 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html lang='fr'>
 	<head>
-		<title>Le site Everlandia</title>
+		<title>UR prints</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="favicon.ico" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
+		<script>
+		function notYet() {
+		  alert("Cette fonction n'est pas encore disponible!😥");
+		}
+		</script>
+
+<script>
+function randGenFunc() {
+    var randNumb = Math.floor(Math.random() * 1); //number of urls-1
+
+    // Array of URLs
+    var randURLs = [
+        "https://urprints.github.io/SylveonFR.html",
+        "https://urprints.github.io/SylveonFR.html"
+    ];
+
+    if (randNumb == 0) {
+        var randURL = Math.floor(Math.random() * randURLs.length);
+
+        window.open(randURLs[randURL]);
+    }
+	}
+</script>
+
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+
 				<!-- Header -->
 					<header id="header">
-						<a href="#banner" class="logo"><strong>Projet Everlandia</strong> <span>la colision des mondes</span></a>
+
+						<a href="#banner" class="logo"><strong>UR prints</strong><span>Votre site d'impression 3D personnalisée</span></a>
+
 						<nav>
-							<strong>Langues:</strong>
-							<a href="index.html">English</a>
-							<f>/</f>
-							<u><a>Français</a></u>
+							<strong>Langue:</strong>
+								<a href="index.html">English</a>
+								<f>/</f>
+								<u><a>Français</a></u>
 						</nav>
 					</header>
 
@@ -32,11 +55,10 @@
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>Bonjour, bienvenue sur le site du Projet Everlandia</h1>
+								<h1>Bonjour, bienvenue sur UR prints</h1>
 							</header>
 							<div class="content">
-								<p>A responsive site template designed by HTML5 UP<br />
-								and released under the Creative Commons.</p>
+								<p>Le site où vous pouvez imprimer des models pré-faits et personnalisés</p>
 							</div>
 						</div>
 					</section>
@@ -51,8 +73,8 @@
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Mobs</h3>
-										<p>Ipsum dolor sit amet</p>
+										<h3><a href="indexFR.html" onclick="randGenFunc()" class="link">Surprenez moi!</a></h3>
+										<p>Cliquez ici pour être redirigé(e) vers un produit aléatoire</p>
 									</header>
 								</article>
 								<article>
@@ -60,8 +82,8 @@
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Blocs</h3>
-										<p>feugiat amet tempus</p>
+										<h3><a href="custom_printsFR.html" class="link">Impression personnalisées</a></h3>
+										<p>Cliquez ici pour voir toutes les options d'impressions personnalisées</p>
 									</header>
 								</article>
 								<article>
@@ -69,8 +91,8 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Mécaniques</h3>
-										<p>Lorem etiam nullam</p>
+										<h3><a href="mech&pracFR.html" class="link">Méchanique & Pratique</a></h3>
+										<p>Voici la liste de tous les modèles mécaniques et pratiques à votre disposition</p>
 									</header>
 								</article>
 								<article>
@@ -78,8 +100,8 @@
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Objets</h3>
-										<p>Nisl sed aliquam</p>
+										<h3><a href="visualFR.html" class="link">Visuels</a></h3>
+										<p>Voici la liste de tous les modèles Visuels à votre disposition</p>
 									</header>
 								</article>
 								<article>
@@ -87,8 +109,8 @@
 										<img src="images/pic05.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Outils</h3>
-										<p>Ipsum dolor sit amet</p>
+										<h3><a onclick="notYet()" href="indexFR.html" class="link">Remboursement</a></h3>
+										<p>Cliquez ici pour voir notre politique de remboursement</p>
 									</header>
 								</article>
 								<article>
@@ -96,8 +118,8 @@
 										<img src="images/pic06.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Bosses</h3>
-										<p>Feugiat amet tempus</p>
+										<h3><a onclick="notYet()" href="indexFR.html" class="link">Me contacter</a></h3>
+										<p>Cliquez ici pour voir mon formulaire de contact</p>
 									</header>
 								</article>
 							</section>
@@ -106,15 +128,22 @@
 							<section id="two">
 								<div class="inner">
 									<header class="major">
-										<h2>Me contacter</h2>
+										<h2>Quest ce que UR prints?</h2>
 									</header>
-									<p>En suivant ce lien vous pourez m'envoyer un mail, veuillez utiliser cette fonction si vous souhaitez:</p>
-									<br>-Me proposer une idée (si votre idée est choisie vous serez informé et crédité dans le mod)</br>
-									<br>-Me proposer votre aide (pour l'instant je ne recherche qu'un dessinateur mais n'hésitez pas à proposer vos idées)</br>
-									<br>-Me proposer une colaboration, ce Projet cherchant à rassembler la communautée si vous connaisez des gens pouvant contribuer qui serais interressés par ce Projet veut me donner leurs informations (ex:Twitter)</br>
-									<br><ul class="actions">
-										<li><a href="landingFR.html" class="button next">M'envoyer un message</a></li>
-									</ul></br>
+									<p>UR prints est un site entretenu par un étudiant (moi), ici vous pourrez acheter des modèles pré-fait ou des modèles personnalisés.
+										J'ai pour projet d'ajouter plus d'options de personnalisation (comme différentes couleurs ou des effets de lumière) a mes prochaines impressions</p>
+									<p>En sachant que ce site n'est pas un site professionnel votre seule méthode de paiement sera Paypal</p>
+									<h3>Comment acheter une impression:</h3>
+									<p>Quand vous serez sur une page de produit il vous sera demandé de remplir certaines informations et il vous sera demandé de confirmer que vous n'êtes pas un robot (je sais que c'est ennuyant mais sans ça le site exploserait sûrement),
+										 ces informations de contact me permettront de vous tenir au courant de la progression de votre impression,
+										 les frais de livraisons devront être discuté par mail car le site ne suport pas cette fonction actuellement (cependant je travaille activement afin d'ajouter cette dernière).
+									 	Une fois le prix fixé je démarrerais le processus d'impression (si besoin, j'ai parfois certaines impressions déjà en stock), après ça vous serez notifié de toutes les étapes de votre impression (nettoyage, assemblage etc...),
+										 de l'impression à la livraison (les informations de livraisons pourraient différer en fonction de la compagnie s'occupant de livrer l'achat).
+									 Si vous souhaitez acheter plus d'une impression à la fois, remplissez la documentation (avec les mêmes informations de livraisons) pour plusieurs impressions différentes et je fusionnerais les deux commandes.
+								 Si vous avez besoin d'informations supplémentaires vous pouvez m'envoyer un message sur la page Contacte au-dessus de cette section.</p>
+									<ul class="actions">
+										<li><a href="assets\music\meow.mp3" class="button next">meow</a></li>
+									</ul>
 								</div>
 							</section>
 
@@ -124,25 +153,21 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a onclick="notYet()" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a onclick="notYet()" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						</div>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/main.js"></script>
-
-
-		<!--
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		-->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
