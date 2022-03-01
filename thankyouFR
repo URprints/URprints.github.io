@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>UR prints</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="favicon.ico" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+			<div id="wrapper">
+          <header id="header" class="alt style2">
+            <a href="indexFR.html" class="logo"><strong>UR prints</strong><span>Votre site d'impression 3D personnalisée</span></a>
+            <nav>
+              <strong>Langue:</strong>
+                <a href="visual.html">English</a>
+                <f>/</f>
+                <u><a>Français</a></u>
+            </nav>
+          </header>
+
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Thank you</h1>
+							</header>
+							<div class="content">
+								<p>Votre mail sera traité le plus tôt possible. Pendant ce temp la vous pouvez chercher plus d'impressions <a href="index.html"><u class="link">ici</u></a> (si vous décidez que vous voulez une autre impression dites le moi dans la section message, je fusionnerais les deu commandes afin de réduire les frais de livraisons)</p>
+							</div>
+						</div>
+					</section>
+
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</div>
+					</footer>
+
+			</div>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
